@@ -1,0 +1,221 @@
+#cont-w .mask {
+  color: #fff;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#cont-w .img-info {
+  width: 100%;
+  line-height: 30px;
+  min-height: 60px;
+  background: rgba(0, 0, 0, 0.7);
+  text-indent: 20px;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  transition: all 0.5s;
+}
+#cont-w .case {
+  border: 10px solid #fff;
+}
+#cont-w .case span i {
+  font-style: normal;
+  height: 20px;
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+#cont-w .case:hover .img-info {
+  opacity: 0;
+}
+#cont-w .case:hover .mask {
+  opacity: 1;
+}
+
+#cont-c .case {
+  width: 100%;
+
+  position: relative;
+}
+
+#cont-c .case img {
+  width: 100%;
+  height: 400px;
+}
+
+/*blogsbox*/
+.blogsbox {
+  width: 100%;
+  overflow: hidden;
+}
+.blogs {
+  overflow: hidden;
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #fff;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(146, 146, 146, 0.1);
+  -moz-box-shadow: 0 2px 5px 0 rgba(146, 146, 146, 0.1);
+  box-shadow: 0 2px 5px 0 rgba(146, 146, 146, 0.1);
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+.blogs .blogpic {
+  float: left;
+  width: 30%;
+  max-height: 170px;
+  margin-right: 20px;
+  display: block;
+  overflow: hidden;
+}
+
+.blogs .blogpic img {
+  width: 100%;
+  height: auto;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  margin-bottom: 10px;
+}
+.blogs .blogpic :hover img {
+  transform: scale(1.1);
+}
+.blogs .blogtitle {
+  margin: 0 0 10px 0;
+  font-size: 20px;
+  overflow: hidden;
+}
+.blogs .blogtitle a {
+  color: #b90984;
+}
+
+.blogs .blogtitle a:hover {
+  color: #337ab7;
+}
+.blogs .blogtext {
+  font-size: 14px;
+  color: #566573;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  margin-top: 20px;
+}
+.bloginfo {
+  overflow: hidden;
+  margin-top: 30px;
+}
+.bloginfo ul li {
+  float: left;
+  font-size: 12px;
+  padding: 0 0 0 20px;
+  margin: 0 15px 0 0;
+  color: #748594;
+  line-height: 1.5;
+  display: inline-block;
+}
+.bloginfo ul li a {
+  color: #748594;
+}
+.bloginfo ul li a:hover {
+  color: #000;
+}
+.bloginfo .author {
+  background: url(../images/auicon.jpg) no-repeat 0 0;
+}
+.bloginfo .lmname {
+  background: url(../images/auicon.jpg) no-repeat top -23px left;
+}
+.bloginfo .timer {
+  background: url(../images/auicon.jpg) no-repeat top -44px left;
+}
+.bloginfo .view {
+  background: url(../images/auicon.jpg) no-repeat top -64px left;
+}
+.bloginfo .like {
+  background: url(../images/auicon.jpg) no-repeat top -85px left;
+}
+/*bplist*/
+.bplist {
+  width: 100%;
+  overflow: hidden;
+  display: block;
+  margin-bottom: 20px;
+}
+.bplist li {
+  float: left;
+  width: 32.8%;
+  height: 174px;
+  overflow: hidden;
+}
+.bplist li:nth-child(2) {
+  margin-left: 6px;
+}
+.bplist li:last-child {
+  float: right;
+}
+.bplist li img {
+  width: auto;
+  min-width: 100%;
+  height: 174px;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+.bplist li:hover img {
+  transform: scale(1.1);
+}
+/*bigpic*/
+.bigpic {
+  overflow: hidden;
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+  background: #000;
+}
+.bigpic img {
+  width: 100%;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -o-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+.bigpic:hover img {
+  opacity: 0.8;
+}
+
+/* 侧边栏 */
+#aside .case {
+  position: relative;
+  width: 100%;
+}
+#aside .case img {
+  width: 100%;
+  height: 180px;
+}
+
+
+
+

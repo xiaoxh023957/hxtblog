@@ -1,0 +1,149 @@
+@media screen and (max-width: 1068px) {
+  .bloginfo {
+    display: none;
+  }
+  .navli a {
+    padding: 0 5px;
+  }
+
+  .bplist li:nth-child(-n + 2) {
+    width: 49%;
+  }
+
+  .bplist li:nth-last-child(1) {
+    display: none;
+  }
+  #section .works-cont > div {
+    width: 33%;
+  }
+
+  #cont-c,
+  #aside {
+    width: 49%;
+  }
+  .oth-cont #cont-c {
+    width: calc(100% - 20px - 40%);
+  }
+  .oth-cont #aside {
+    width: 40%;
+  }
+  #cont-w .case img {
+    width: 100%;
+    height: auto;
+  }
+  .blogpic img {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  #nav li {
+    float: left;
+    height: 30px;
+  }
+  .navli,
+  .title span,
+  #section .learnaside {
+    display: none;
+  }
+
+  #nav .switch {
+    display: block;
+  }
+  #cont-w .case img {
+    width: 100%;
+    height: auto;
+  }
+  .abtinfo {
+    float: left;
+    width: 50%;
+    margin-top: 40px;
+  }
+  .contact {
+    margin-top: 90px;
+  }
+  .tjpic {
+    height: 240px;
+  }
+  #section .works-cont > div {
+    width: 50%;
+  }
+
+  #cont-c,
+  #aside {
+    float: none;
+    width: 100%;
+  }
+  .sidenews li {
+    padding-bottom: 20px;
+    border-bottom: 1px #b90984 dashed;
+  }
+  .sidenews li p {
+    font-size: 15px;
+  }
+  #aside span {
+    bottom: 20px;
+  }
+
+  .bloginfo {
+    display: block;
+  }
+  .abtinfo {
+    margin-top: 14%;
+  }
+  .contact {
+    margin-top: 22%;
+  }
+
+  #aside .case {
+    width: 49%;
+  }
+  #aside .case:nth-child(1) {
+    float: left;
+  }
+  #aside .case:nth-child(1) {
+    float: right;
+  }
+  .oth-cont #aside,
+  .oth-cont #cont-c {
+    float: none;
+    width: 100%;
+  }
+  body {
+    font-size: 16px;
+    background-position: 0 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #cont-w .case {
+    border: 2px solid #fff;
+  }
+
+  .contact {
+    display: none;
+  }
+  .aboutme {
+    width: 100%;
+  }
+  .abtinfo {
+    width: 100%;
+    margin-top: 0;
+  }
+  #cont-w .case .img-info,
+  #aside .case {
+    display: none;
+  }
+  #section .works-cont > div {
+    width: 100%;
+  }
+  .bplist li:nth-child(-n + 2) {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #section {
+    padding: 0 !important;
+  }
+}

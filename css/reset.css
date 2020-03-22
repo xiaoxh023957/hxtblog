@@ -1,0 +1,95 @@
+/*-----------Reset----------*/
+@charset 'UTF-8';
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+dl,
+dd,
+ul,
+ol,
+form,
+input,
+button,
+textarea,
+th,
+td,
+select {
+  margin: 0;
+  padding: 0;
+}
+
+em,
+i,
+strong {
+  font-weight: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #3c3c3c;
+  vertical-align: top;
+}
+
+img {
+  border: none;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+input,
+button,
+textarea {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+textarea {
+  resize: none;
+  overflow: auto;
+}
+
+body {
+  font: 14px/1.5 "simsun";
+  color: #3c3c3c;
+  background: url("../images/body-bg.jpg") no-repeat fixed;
+  background-size: 100%;
+}
+
+div {
+  box-sizing: border-box;
+  border-radius: 4px;
+  overflow: hidden;
+}
+/* end reset */
+/*-----------public sytle-----------------*/
+
+.wrap {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
